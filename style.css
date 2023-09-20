@@ -1,0 +1,38 @@
+body{
+    background-color: black;
+    color: aliceblue;
+    font-family: fantasy;
+}
+
+h1{
+    text-align: center;
+    background-image: linear-gradient(to right,gold,red ,greenyellow);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-size: 50px;
+}
+
+#shape{
+    width: 150px;
+    height: 150px;
+    background-color: red;
+    display: none;
+    position: relative;
+    top: 30px;
+    left: 30px;
+    border: 2px solid black;
+}
+
+#box{
+    margin: auto;
+    width: 800px;
+    height: 600px;
+    background-color: whitesmoke;
+    border: 3px solid greenyellow;
+    position: relative;
+}
+
+.bold{
+    font-size: 22px;
+}
